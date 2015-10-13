@@ -1,0 +1,38 @@
+/*
+/* body */
+body {
+	background: rgb(260, 174, 55);
+}
+
+#content {
+	/* position */
+	position: absolute;
+	float: bottom;
+	overflow: scroll;
+	
+	/* font */
+	font-size: 35px;
+	
+	/* content layout */
+	padding-top: 20px;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	
+	font-family: Avenir Next, Avenir, sans-serif;
+}
+
+p {
+	font-family: Helvetica Light, Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: none;
+	font-decoration: none;
+}
+
+.jumptarget { 
+    content: " ";
+    background: rgb(260, 174, 55);
+    display: block;
+    margin-top: -50px;
+    padding-top: 50px;
+} */

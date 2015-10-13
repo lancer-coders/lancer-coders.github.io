@@ -1,0 +1,86 @@
+/* navigation bar*/
+nav, nav > ul {
+	background: #492D1D;
+	
+	/* font */
+	font-family: Avenir Next, Avenir, sans-serif;
+	font-size: 30px;	
+	
+	/* position */
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	
+	/* size */
+	width: 100%;
+	height: 50px;
+	
+	/* content */
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+
+/* all list items */
+nav > ul > li {
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	padding: 5px;
+	background: rgb(73, 45, 29);
+}
+
+
+/* all links */
+nav a {
+	text-decoration: none;
+	color: rgb(253, 220, 143);
+}
+nav > ul > li > #title {
+	color: white;
+}
+
+
+/* hover over list items */
+nav > ul > li:hover > a {
+	background: #FFAE37;
+	color: black;
+}
+nav > ul > li:hover > #title {
+	background: rgb(260, 174, 55);
+}
+nav > ul > li.selected {
+	background: rgb(230, 154, 35);
+}
+
+
+/* drop down menu */
+nav ul ul {
+	visibility: visible;
+	float: bottom:
+	position: fixed;
+	z-index: 2;
+	display: block;
+	opacity: 1;
+}
+nav ul li:hover {
+	background: #4b545f;
+}	
+
+
+/* drop down menu items */
+nav > ul > li > ul > li {
+	/* position */
+	position: absolute;
+	display: block;
+}
+
+
+
+
+
+
+
