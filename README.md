@@ -1,4 +1,7 @@
-# lancer-coders.github.io
+# St. Francis High School Programming Club Website
+<http://lancer-coders.github.io>
+
+
 This is the master code for the Saint Francis High School's Programming Club/Team Website.
 
 
